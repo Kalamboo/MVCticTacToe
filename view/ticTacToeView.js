@@ -26,7 +26,8 @@ class Elem{
 
 class Jatekter{
     constructor(tomb){
-        const jelTomb = ["❶", "❷", "❸", "❹", "❺", "❻", "❼", "❽", "❾", "❿"];
+        //const jelTomb = ["❶", "❷", "❸", "❹", "❺", "❻", "❼", "❽", "❾"];
+        const jelTomb = ["-", "-", "-", "-", "-", "-", "-", "-", "-"];
         const szuloElem = $("article");
         for (let index = 0; index < 9; index++) {
             const elem = new Elem(szuloElem);
